@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 5px;
+            text-align: left;    
+        }
+        table#t01 tr:nth-child(even), table#t02 tr:nth-child(even) {
+            background-color: #eee;
+        }
+        table#t01 tr:nth-child(odd), table#t02 tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        table#t01 th {
+            background-color: rgb(248, 176, 21);
+            color: white;
+        }
+        table#t02 th {
+            background-color: rgb(252, 41, 4);
+            color: white;
+        }
+    </style>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <p>Hi,<br>
+            This message is sent from Python.<br>
+        </p>
+        <table style="width:100%" id="t01">
+            <tr>
+                <th colspan=5>Business News</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src = "https:{}"
+                        alt = "News image" height = "125" width = "225">
+                    </br>
+                    Raytheon and United Technologies are in talks to create a defense and aerospace behemoth.
+                </td>
+                <td>How a United Technologies-Raytheon tie-up could make a 'monster supplier' and reshape the industry.</td>
+                <td>United Technologies has struck a deal to combine its booming aerospace business with defense contractor Raytheon, a surprise twist capable of rattling customers and competitors alike. The deal would create a giant, one-stop shop with products that range from…
+                    <a href="https://www.cnbc.com/2019/06/10/raytheon-and-united-technologies-merger-could-shake-up-the-industry.html">[read more]
+                    </a>
+                </td>
+                <td>CNBC</td>
+            </tr>
+        </table>
+        <table style="width:100%" id="t02">
+            <tr>
+                <th colspan=5>Sports News</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src = "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F0610%2Fr554473_1296x729_16%2D9.jpg"
+                        alt = "News image" height = "125" width = "225">
+                    <br />
+                    Tuukka Rask was once again exceptional for the Bruins, making 28 saves -- including one that rolled off his back -- in a 5-1 rout of the Blues to force a Game 7.
+                </td>
+                <td>Rask locks down Blues as Bruins force Game 7</td>
+                <td>ST. LOUIS -- With the Boston Bruins facing elimination on Sunday, Tuukka Rask came up big.\r\nPerhaps you've heard this story before.\r\nRask was once again exceptional for Boston, making 28 saves -- including one that rolled off his back -- as the Bruins defeate…
+                    <a href="https://www.espn.com/nhl/story/_/id/26938477/rask-locks-blues-bruins-force-game-7">[read more]
+                    </a>
+                </td>
+                <td>ESPN</td>
+            </tr>
+            </table>
+    </body>
+</html>
